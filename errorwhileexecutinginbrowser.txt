@@ -1,0 +1,17 @@
+[HMR] Waiting for update signal from WDS...
+bundle.js:9579 Warning: Failed prop type: The prop `history` is marked as required in `Router`, but its value is `undefined`.
+    in Router (created by App)
+    in App
+printWarning @ bundle.js:9579
+bundle.js:31064 Uncaught TypeError: Cannot read property 'location' of undefined
+    at new Router (bundle.js:31064)
+    at bundle.js:23838
+    at measureLifeCyclePerf (bundle.js:23618)
+    at ReactCompositeComponentWrapper._constructComponentWithoutOwner (bundle.js:23837)
+    at ReactCompositeComponentWrapper._constructComponent (bundle.js:23823)
+    at ReactCompositeComponentWrapper.mountComponent (bundle.js:23731)
+    at Object.mountComponent (bundle.js:16306)
+    at ReactCompositeComponentWrapper.performInitialMount (bundle.js:23914)
+    at ReactCompositeComponentWrapper.mountComponent (bundle.js:23801)
+    at Object.mountComponent (bundle.js:16306)
+bundle.js:631 [WDS] Hot Module Replacement enabled.
